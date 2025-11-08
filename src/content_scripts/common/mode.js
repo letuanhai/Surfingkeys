@@ -89,7 +89,7 @@ Mode.getCurrent = () => {
 
 Mode.specialKeys = {
     "<Alt-s>": ["<Alt-s>"],       // hotkey to toggleBlocklist
-    "<Esc>": ["<Esc>"]
+    "<Esc>": ["<Esc>", "<Ctrl-Esc>", "<Escape>"]  // Ctrl-[ generates <Ctrl-Esc>, some browsers use <Escape>
 };
 
 Mode.isSpecialKeyOf = function(specialKey, keyToCheck) {
